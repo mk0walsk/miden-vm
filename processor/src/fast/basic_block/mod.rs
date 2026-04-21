@@ -72,6 +72,7 @@ impl FastProcessor {
                         current_forest,
                         node_id,
                         host,
+                        Some(op_idx),
                         event_id,
                         event_name,
                     )));
